@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Name and Motto */}
           <div>
-            <h2 className="text-2xl font-bold mb-4">FitFlex</h2>
+            <h2 className="text-2xl font-bold mb-4">FitZone</h2>
             <p className="text-[#EFEDE8A6]">
               Empowering you to achieve your fitness goals, one step at a time.
             </p>
@@ -111,7 +111,7 @@ const Footer = () => {
 
         {/* Copyright Section */}
         <div className="border-t border-[#EFEDE8A6] mt-8 pt-8 text-center text-[#EFEDE8A6]">
-          <p>&copy; {new Date().getFullYear()} FitFlex. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Fitzone. All rights reserved.</p>
         </div>
       </div>
     </footer>
