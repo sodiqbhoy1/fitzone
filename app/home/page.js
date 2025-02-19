@@ -166,13 +166,13 @@ export default function Homepage() {
     </div>
 
     {/* <!-- Card 3 --> */}
-    <div class="bg-gray-800 p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl border-2 border-[#EC7807]">
-      <h4 class="text-xl font-semibold text-[#EC7807] mb-4">Professional</h4>
-      <p class="text-lg text-[#EFEDE8A6] mb-6">
+    <div className="bg-gray-800 p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl border-2 border-[#EC7807]">
+      <h4 className="text-xl font-semibold text-[#EC7807] mb-4">Professional</h4>
+      <p className="text-lg text-[#EFEDE8A6] mb-6">
         Yanyan Plus includes everything you get with a free membership and adds brand new convenience features, 
         fitness tools, and unique content.
       </p>
-      <ul class="list-disc pl-6 text-white space-y-2">
+      <ul className="list-disc pl-6 text-white space-y-2">
         <li>Ads-Free Website and Videos</li>
         <li>Surprise Me Workout Selection Tool</li>
         <li>Statistics for Your Activities</li>

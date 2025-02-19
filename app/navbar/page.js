@@ -53,7 +53,7 @@ export default function Navbar() {
             Home
           </Link>
           <Link
-            href="/signup"
+            href="/about"
             className="block md:inline-block px-6 py-2 rounded-lg transition hover:text-white"
           >
             About
@@ -71,7 +71,7 @@ export default function Navbar() {
             Community
           </Link>
           <Link
-            href="/signup"
+            href="/login"
             className="block md:inline-block text-white px-6 py-2 border-[#ec7807] border-solid border-[1px] rounded-lg transition hover:bg-[#ec7807] hover:text-black"
           >
             Log in
