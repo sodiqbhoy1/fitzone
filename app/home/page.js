@@ -26,6 +26,26 @@ export default function Homepage() {
     },
   ];
 
+  const programs = [
+    {
+      title: "Workout Videos",
+      description: "Access tohundreds of free, full-length workout videos."
+    },
+    {
+      title: "Workout Programs",
+      description: "Affordable and effective workout progams."
+    },
+    {
+      title: "Meal Plans",
+      description: "Plns built with registered dietitions and nutritionist."
+    },
+    {
+      title: "YANYAN ALL ACCESS",
+      description: "Add powerful features toyour membership."
+    },
+  ];
+
+
   return (
     <div>
       <Navbar />
@@ -73,6 +93,26 @@ export default function Homepage() {
           </div>
         ))}
       </section>
+
+      {/* not sure where to start */}
+    
+      <section class="py-8 bg-[#111111]">
+  <div class="max-w-7xl mx-auto px-6">
+    <h3 class="text-3xl font-semibold text-white text-center mb-6">Not sure where to start</h3>
+    <p class="text-lg text-[#EFEDE8A6] text-center mb-8">Programs offer day-to-day guidance on an interactive calendar to keep you on track.</p>
+  </div>
+
+  <div class="flex flex-wrap gap-3 justify-center ">
+    {programs.map((program, index) => (
+      <div key={index} className="bg-[#181717] rounded-lg p-6 w-80 shadow-lg hover:shadow-xl transition-shadow duration-300">
+        <h3 className="text-xl font-semibold text-white mb-4">{program.title}</h3>
+        <p className="text-[#EFEDE8A6] text-sm">{program.description}</p>
+      </div>
+    ))}
+  </div>
+</section>
+
+
     </div>
   );
 }
