@@ -2,7 +2,7 @@ import Navbar from "../navbar/page";
 
 export default function ForgotPassword() {
     return (
-        <div className="min-h-screen bg-gray-900">
+        <div className="min-h-screen">
             {/* Navbar */}
             <Navbar />
 
@@ -24,7 +24,7 @@ export default function ForgotPassword() {
 
                         <button
                             type="submit"
-                            className="w-full py-2 px-4 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            className="w-full py-2 px-4 bg-[#EC7807] text-white font-semibold rounded-md hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-500"
                         >
                             Send Reset Link
                         </button>
